@@ -1,3 +1,4 @@
+#dependencies
 import numpy as np
 import pandas as pd
 import datetime as dt
@@ -167,9 +168,6 @@ def fromrange(start,end):
     session.close()
     return jsonify(result)
 
-
-
-    return f"Start {start}? End: {end}"
 
 if __name__ == "__main__":
     app.run(debug=True)
